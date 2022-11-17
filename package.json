@@ -1,0 +1,20 @@
+{
+  "name": "parcel-jest-base",
+  "version": "1.0.0",
+  "description": "npm install",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "test": "jest --watch",
+    "test-once": "jest --verbose --coverage"
+  },
+  "author": "Nicole Uribe",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "babel-jest": "^27.4.6",
+    "jest": "^27.5.1",
+    "parcel": "^2.2.0"
+  }
+}
